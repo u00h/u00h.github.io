@@ -1,0 +1,36 @@
+footer li {
+    margin: 1rem;
+    list-style: none;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #495057;
+    color: #fff;
+    padding: 4rem;
+    row-gap: 20px;
+
+}
+
+.footer_logo {
+    width: 130px;
+    height: 37px;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 5rem;
+    margin-bottom: 4rem;
+}
+
+.footer_bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_top_list:first-child {
+    font-weight: 500;
+}
