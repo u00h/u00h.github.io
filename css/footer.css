@@ -82,4 +82,5 @@ footer li {
     text-decoration: underline;
     text-underline-position: under;
     line-height: 24px;
+    outline: none;
 }
