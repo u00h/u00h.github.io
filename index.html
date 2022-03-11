@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="body.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -19,18 +19,18 @@
 </head>
 
 <body>
-    <!--헤더 영역-->
+    <!--글로벌 네비게이션 바-->
     <header>
         <div id="header_container">
             <div class="header_left">
                 <a href="#">
-                    <img src="logo.svg" alt="브랜드 로고">
+                    <img src="image/logo.svg" alt="브랜드 로고">
                 </a>
                 <section id="header_search">
                     <div id="search_container">
                         <input type="text" placeholder="동네 이름, 물품명 등을 검색해보세요!">
                         <div>
-                            <img src="search_icon.svg" alt="검색 아이콘">
+                            <img src="image/search_icon.svg" alt="검색 아이콘">
                         </div>
                     </div>
                 </section>
@@ -48,13 +48,13 @@
                     <ul id="store_menu">
                         <li>
                             <a href="#">
-                                <img src="appstore.svg" alt="appstore">
+                                <img src="image/appstore.svg" alt="appstore">
                                 <span>App Store</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="playstore.svg" alt="playstore">
+                                <img src="image/playstore.svg" alt="playstore">
                                 <span>Play Store</span>
                             </a>
                         </li>
@@ -68,23 +68,23 @@
         </div>
     </header>
 
-    <!--바디 영역-->
+    <!--당근마켓 소개 섹션-->
     <section id="first">
-        <div class="text_area">
+        <div class="text_area" data-aos="zoom-in" data-aos-duration="600">
             <h1>당신 근처의 <br> 당근마켓</h1>
             <p>중고 거래부터 동네 정보까지, 이웃과 함께해요. <br>
                 가깝고 따뜻한 당신을 만들어요.</p>
         </div>
         <div class="first_image" data-aos="fade-left" data-aos-duration="600">
-            <img src="mainimage.png" alt="main">
+            <img src="image/mainimage.png" alt="main">
         </div>
     </section>
 
     <section id="second">
         <div class="second_image" data-aos="fade-right" data-aos-duration="600">
-            <img src="mainimage2.png" alt="main2">
+            <img src="image/mainimage2.png" alt="main2">
         </div>
-        <div class="text_area2">
+        <div class="text_area2" data-aos="zoom-in" data-aos-duration="600">
             <h1>우리 동네 <br> 중고 직거래 마켓</h1>
             <p>동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.</p>
             <div class="second_button">
@@ -95,49 +95,50 @@
     </section>
 
     <section id="third">
-        <div class="text_area3">
+        <div class="text_area3" data-aos="zoom-in" data-aos-duration="600">
             <h1>이웃과 함께 하는 <br> 동네생활</h1>
             <p>우리 동네의 다양한 이야기를 이웃과 함께 나누어요.</p>
             <div class="third_icon">
                 <div class="quest">
-                    <img src="third_logo1.svg" alt="quest">
+                    <img src="image/third_logo1.svg" alt="quest">
                     <h4>우리동네질문</h4>
                     <p>궁금한 게 있을 땐 이웃에게 물어보세요.</p>
                 </div>
                 <div class="center">
-                    <img src="third_logo2.svg" alt="center">
+                    <img src="image/third_logo2.svg" alt="center">
                     <h4>동네분실센터</h4>
                     <p>무언가를 잃어버렸을 때, 함께 찾을 수 있어요.</p>
                 </div>
                 <div class="meet">
-                    <img src="third_logo3.svg" alt="meet">
+                    <img src="image/third_logo3.svg" alt="meet">
                     <h4>동네모임</h4>
                     <p>관심사가 비슷한 이웃과 온오프라인으로 만나요.</p>
                 </div>
             </div>
         </div>
         <div class="third_image" data-aos="fade-left" data-aos-duration="600">
-            <img src="mainimage3.png" alt="main3">
+            <img src="image/mainimage3.png" alt="main3">
         </div>
     </section>
 
     <section id="fourth">
         <div class="fourth_image" data-aos="fade-right" data-aos-duration="600">
-            <img src="mainimage4.png" alt="main4">
+            <img src="image/mainimage4.png" alt="main4">
         </div>
-        <div class="text_area4">
+        <div class="text_area4" data-aos="zoom-in" data-aos-duration="600">
             <h1>내 근처에서 찾는 <br> 동네가게</h1>
             <p>우리 동네 가게를 찾고 있나요?<br>
-                동네 주민이 남긴 진짜 후기를 함꼐 확인해보세요!</p>
+                동네 주민이 남긴 진짜 후기를 함께 확인해보세요!</p>
             <div class="fourth_button">
                 <button class="find_button">당근마켓 동네가게 찾기</button>
             </div>
         </div>
     </section>
+
     <section id="popular_items">
         <h2>중고거래 인기매물</h2>
         <div class="items_container">
-            <div class="items">
+            <div class="items" data-aos="flip-down" data-aos-duration="600">
                 <div class="items_image"><img src="https://picsum.photos/seed/picsum/300/300" alt="item_1"></div>
                 <div class="items_title">루이비통 가방</div>
                 <div class="items_price">10,000원</div>
@@ -145,42 +146,77 @@
                 <div class="items_info">관심 24 ∙ 채팅 15</div>
             </div>
         </div>
+        <a class="view_more" href="#">인기매물 더 보기</a>
     </section>
+
     <section id="popular_keyword">
-
+        <a href="#">중고거래 인기검색어</a>
+        <ul class="recommend_keyword">
+            <li><a href="#">자전거</a></li>
+            <li><a href="#">캠핑</a></li>
+            <li><a href="#">패딩</a></li>
+            <li><a href="#">의자</a></li>
+            <li><a href="#">냉장고</a></li>
+            <li><a href="#">노트북</a></li>
+            <li><a href="#">아이폰</a></li>
+            <li><a href="#">난로</a></li>
+            <li><a href="#">컴퓨터</a></li>
+            <li><a href="#">아이패드</a></li>
+        </ul>
     </section>
 
-    <footer class="footer_container">
-        <div class="footer_top">
-            <div class="footer_logo"><img src="footer_logo.svg" alt="footer_logo"></div>
-            <ul class="footer_top_list">
-                <li>믿을 수 있는 중고거래</li>
-                <li>자주 묻는 질문</li>
-            </ul>
-            <ul class="footer_top_list">
-                <li>광고주센터</li>
-                <li>당근페이</li>
-                <li>동네가게</li>
-            </ul>
-            <ul class="footer_top_list">
-                <li>회사 소개</li>
-                <li>채용</li>
-            </ul>
-            <ul class="footer_top_list">
-                <li>이용약관</li>
-                <li>개인정보처리방침</li>
-                <li>위치기반서비스 이용약관</li>
-            </ul>
+    <footer id="footer_container">
+        <div class="footer_box">
+            <div class="footer_top">
+                <div class="footer_logo"><img src="image/footer_logo.svg" alt="footer_logo"></div>
+                <ul>
+                    <li class="on_link">믿을 수 있는 중고거래</li>
+                    <li class="on_link">자주 묻는 질문</li>
+                </ul>
+                <ul>
+                    <li class="on_link">광고주센터</li>
+                    <li>당근페이</li>
+                    <li>동네가게</li>
+                </ul>
+                <ul>
+                    <li>회사 소개</li>
+                    <li>채용</li>
+                </ul>
+                <ul>
+                    <li>이용약관</li>
+                    <li>개인정보처리방침</li>
+                    <li>위치기반서비스 이용약관</li>
+                </ul>
+            </div>
+            <div class="footer_bottom">
+                <p class="footer_bottom_list">
+                    고객문의 <a href="mailto:cs@daangnservice.com">cs@daangnservice.com</a>
+                    제휴문의 <a href="mailto:contact@daangn.com">contact@daangn.com</a>
+                </p>
+                <p class="footer_bottom_list">
+                    지역광고 <a href="mailto:ad@daangn.com">ad@daangn.com</a>
+                    PR문의 <a href="mailto:pr@daangn.com">pr@daangn.com</a>
+                </p>
+                <p class="footer_karrotinfo">서울특별시 구로구 디지털로30길 28, 609호 (당근서비스)
+                    사업자 등록번호 : 375-87-00088 직업정보제공사업 신고번호 : J1200020200016</p>
+                <ul class="footer_snslink">
+                    <a href="#"><img src="image/facebook_icon.svg" alt="facebook_icon"></a>
+                    <a href="#"><img src="image/instagram_icon.svg" alt="instagram_icon"></a>
+                    <a href="#"><img src="image/blog_icon.svg" alt="blog_icon"></a>
+                    <div id="global_select">
+                        <img src="image/global_icon.png" alt="global_icon">
+                        <select class="global_link">
+                            <option value="kr">한국</option>
+                            <option value="https://uk.karrotmarket.com">영국</option>
+                            <option value="https://ca.karrotmarket.com">캐나다</option>
+                            <option value="https://us.karrotmarket.com">미국</option>
+                            <option value="https://jp.karrotmarket.com">일본</option>
+                        </select>
+                    </div>
+                </ul>
+                <p class="footer_copyright">©Danggeun Market Inc.</p>
+            </div>
         </div>
-        <div class="footer_bottom">
-            <p class="footer_bottom_list">고객문의 cs@daangnservice.com 제휴문의 contact@daangn.com</p>
-            <p class="footer_bottom_list">지역광고 ad@daangn.com PR문의 pr@daangn.com</p>
-            <p class="footer_bottom_list">서울특별시 구로구 디지털로30길 28, 609호 (당근서비스)
-                사업자 등록번호 : 375-87-00088 직업정보제공사업 신고번호 : J1200020200016</p>
-            <ul class="footer_bottom_list"></ul>
-            <ul class="footer_bottom_list"></ul>
-        </div>
-
     </footer>
     <script src="script.js"></script>
 </body>

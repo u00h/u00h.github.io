@@ -84,6 +84,7 @@
 #popular_items {
     flex-direction: column;
     align-items: center;
+    background-color: #F8F9FA;
 }
 
 #popular_items > h2 {
@@ -129,4 +130,33 @@
 .items_image > img {
     width: 100%;
     border-radius: 10px;
+}
+
+.view_more, .view_more:focus {
+    margin: 4rem 0 8rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#popular_keyword {
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#popular_keyword > a {
+    margin-right: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.recommend_keyword {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+
+.recommend_keyword a:hover {
+    text-decoration: underline;
 }

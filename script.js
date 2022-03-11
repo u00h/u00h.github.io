@@ -16,13 +16,13 @@ $(document).ready(function () {
     AOS.init();
 
     // 상단 메뉴 고정소스
-    var offset = $("#header_wrap").offset();
+    var offset = $("#header_container").offset();
     $(window).scroll(function () {
         if ($(document).scrollTop() > offset.top) {
-            $("#header_wrap").addClass("fixed");
+            $("#header_container").addClass("fixed");
         }
         else {
-            $("#header_wrap").removeClass("fixed");
+            $("#header_container").removeClass("fixed");
         }
     });
 });
